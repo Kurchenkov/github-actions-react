@@ -6,9 +6,6 @@ jobs:
     steps:
       - name: Get repository code
         uses: actions/checkout@v3
-        with:
-          repository: 'Kurchenkov/github-actions-react'
-          token: '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'
       - name: Install dependencies
         run: npm ci
       - name: Test application
